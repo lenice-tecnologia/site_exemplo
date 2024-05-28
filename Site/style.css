@@ -1,0 +1,289 @@
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #E6CBA1;
+        text-align: center;
+    }
+    
+    div#logomarca {
+        border: 1px solid #73E69D;
+        background-color: #754D99;
+        border-style: 5px solid;
+        border-radius: 10px;
+        text-align: center;
+        height: auto;
+        width: auto;
+        padding-top: 35px;
+    }
+    
+    div#menu {
+        position: fixed;
+        background-color: #754D99;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: normal;
+        font-size: 15pt;
+        text-decoration: #754D99;
+        text-transform: uppercase;
+        /*Transforma tudo em maiusculo*/
+        top: 0px;
+        /*dist. cima*/
+        left: 0px;
+        /*dist. esq.*/
+        right: 0px;
+        /*dist. direita*/
+        padding: 20px;
+        /*espaçamento*/
+        padding-bottom: 5px;
+        list-style: none;
+        z-index: 10;
+        display: inline block;
+        opacity: 1;
+    }
+    
+    a {
+        margin: 50px;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: #BB8AE6;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #BB8AE6;
+    }
+    
+    a:hover {
+        background-color: #73E69D;
+        border: 1px solid #BB8AE6;
+        border-radius: 5px;
+    }
+    
+    a:active {
+        text-decoration: none;
+        color: #73E69D;
+    }
+    
+    audio:hover,
+    audio:focus,
+    audio:active {
+        -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    
+    audio {
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+        -moz-box-shadow: 2px 2px 4px 0px #BB8AE6;
+        -webkit-box-shadow: 2px 2px 4px 0px #BB8AE6;
+        box-shadow: 2px 2px 4px 0px #BB8AE6;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    audio::-webkit-media-controls-enclosure {
+        background-color: #E6CBA1;
+    }
+    
+    h1 {
+        color: #BB8AE6;
+        text-shadow: 2px 2px #754D99;
+        border-style: outset;
+        border-color: #73E69D;
+        border-width: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30pt;
+    }
+    
+    p {
+        color: #754D99;
+        font-size: 20pt;
+        text-align: justify;
+        margin: 20px;
+    }
+    
+    div#textdiv {
+        padding-top: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+    }
+    
+    div#lista {
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    h2 {
+        text-align: left;
+        color: #754D99;
+    }
+    
+    h3 {
+        text-align: left;
+    }
+    
+    ul,
+    ol,
+    li {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15pt;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+    }
+    
+    img {
+        padding-bottom: 10px;
+    }
+    
+    div#tabela {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 16px;
+        text-align: center;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #BB8AE6;
+    }
+    
+    th {
+        background-color: #73E69D;
+        color: #754D99;
+    }
+    
+    caption {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20pt;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+    }
+    
+    caption:hover {
+        background-color: #73E69D
+    }
+    
+    div#contato {
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+    
+    form {
+        width: 600px;
+        margin: auto
+    }
+    
+    input {
+        font-family: sans-serif;
+        font-weight: normal;
+        font-size: 10pt;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    input:hover {
+        background-color: #BB8AE6;
+    }
+    
+    legend {
+        color: #888888;
+        font-weight: bold;
+        font-size: 13pt;
+        font-family: sans-serif;
+    }
+    
+    fieldset {
+        border-color: #cecece;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+    }
+    
+    fieldset#tipoofertas {
+        border-color: rgb(87, 86, 86);
+        border-style: dotted;
+        height: 250 px;
+        width: 230px;
+        font-family: sans-serif
+    }
+    
+    fieldset#sfieldset {
+        border-color: rgb(87, 86, 86);
+        height: 60px;
+        width: 230px;
+        font-family: sans-serif
+    }
+    
+    legend#slegend {
+        color: rgb(0, 0, 0);
+        font-size: 13pt;
+        font-family: sans-serif
+    }
+    
+    legend#tipoofertas {
+        color: black;
+        font-size: 13pt;
+        font-family: sans-serif
+    }
+    
+    label {
+        color: rgb(0, 0, 0);
+        font-size: 13pt;
+        font-family: sans-serif
+    }
+    
+    textarea {
+        color: black;
+        height: 100px;
+        width: 500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        resize: none;
+    }
+    
+    textarea:hover {
+        background-color: #BB8AE6
+    }
+    
+    footer {
+        margin-top: 100px;
+        margin-bottom: 0;
+        background-color: #754D99;
+        bottom: 0;
+    }
+    
+    p#rodape {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10pt;
+        color: #E6CBA1;
+    }
